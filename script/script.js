@@ -64,7 +64,7 @@ saveButton.addEventListener("click", function (event) {
 
   const petString = JSON.stringify(pet).replace(/[{}"]/g, " ");
 
-  petListItem.textContent = petString.toUpperCase();
+  petListItem.innerText = petString.toUpperCase();
 
   petList.appendChild(petListItem);
 
