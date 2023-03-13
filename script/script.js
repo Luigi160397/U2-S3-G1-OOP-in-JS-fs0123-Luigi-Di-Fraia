@@ -77,7 +77,6 @@ petListItem.textContent = petString.toUpperCase();
 petList.appendChild(petListItem);
 
 
-
   form.reset();
 });
 
